@@ -147,9 +147,7 @@ experience:
       role: Legal Administration
       location: Yangju, South Korea
       description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+
 
 publication:
   show: true
