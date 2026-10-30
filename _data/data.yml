@@ -104,7 +104,9 @@ profile:
   order: 1
   title: Profile
   description: |
-    I am a Ph.D. student in the Department of Statistics at Seoul National University, under the supervision of Prof. Jaeyong Lee. My primary research interests lie in Bayesian statistics, with a particular focus on developing nonparametric Bayesian models and investigating their theoretical properties, such as posterior concentration rates. Specifically, I work on nonparametric regression methodologies, including random basis approaches using splines, Gaussian processes, and deep learning."
+    I am a Ph.D. candidate in the Department of Statistics at Seoul National University, advised by Professor Jaeyong Lee. I expect to receive my Ph.D. in February 2027.
+
+    My research focuses on Bayesian nonparametrics and the statistical foundations of Bayesian deep learning. My recent work studies sparse Bayesian Kolmogorov–Arnold networks and Lévy adaptive B-spline regression, investigating how these models learn functions with unknown smoothness and complex structure. I am also interested in Gaussian processes and scalable Bayesian inference.
 
 education:
   show: true
@@ -115,7 +117,7 @@ education:
   items:
     - institution: Seoul National University
       link: 
-      date: 2020 - Present
+      date: Present
       major: Statistics
       degree: Ph. D.
       # description: |
@@ -125,7 +127,7 @@ education:
 
     - institution: Konkuk University
       link:
-      date: 2014 - 2020
+      date: 2020
       major: Statistics
       degree: Bachelor
       # description: |
@@ -133,20 +135,20 @@ education:
       #   + First
       #   + Second
 
-experience:
-  show: true
-  order: 3
-  title: Experiences
-  description: |
+# experience:
+#   show: true
+#   order: 3
+#   title: Experiences
+#   description: |
 
-  items:
-    - company: The 26th Mechanized Infantry Division
-      link: 
-      tags: Enlisted 
-      date: 2015.02 - 2016.11
-      role: Legal Administration
-      location: Yangju, South Korea
-      description: |
+#   items:
+#     - company: The 26th Mechanized Infantry Division
+#       link: 
+#       tags: Enlisted 
+#       date: 2015.02 - 2016.11
+#       role: Legal Administration
+#       location: Yangju, South Korea
+#       description: |
 
 
 publication:
@@ -156,10 +158,35 @@ publication:
   description: |
 
   items:
-    - title: Posterior Concentration for LARK in Besov Space
-      authors: Jeunghun Oh, Sewon Park, Jaeyong Lee
-      conference: 2025+ (working paper)
-      link: 
+    - title: Posterior Contraction Rates for Sparse Kolmogorov–Arnold Networks in Anisotropic Besov Spaces.
+      authors: <strong>Oh, J.</strong>, Lin, L., Lee, J., and Lee, K.
+      conference: NeurIPS 2026 (to appear)
+      link: 'https://arxiv.org/abs/2605.11652'
+
+  items:
+    - title: Posterior Contraction of Lévy Adaptive
+             B-spline Regression in Besov Spaces.
+      authors: <strong>Oh, J.</strong>, Park, S., and Lee, J.
+      conference: (submitted)
+      link: 'https://arxiv.org/abs/2605.19610'
+    
+  items:
+    - title: Multivariate Lévy Adaptive B-Spline Regression
+      authors: Park, S., Lee, J., and <strong>Oh, J.</strong>
+      conference: (submitted)
+      link: 'https://arxiv.org/abs/2108.11863'
+  
+  items:
+    - title: Bayesian Bootstrap based Gaussian Copula Model for Mixed Data with High Missing Rates.
+      authors: Kim, S., <strong>Oh, J.</strong>, Ko, H., Park, J., and Lee, J.
+      conference: Statistics and Computing (to appear)
+      link: 'https://arxiv.org/abs/2507.06785'
+    
+  items:
+    - title: Bayesian Channel Estimation for mmWave Massive MIMO Systems: An MCMC-Based Approach.
+      authors: Lee, G., Kim, S., Oh, M., Ko, B., and <strong>Oh, J.</strong>
+      conference: (submitted)
+      # link: ''
 
 project:
   show: true
@@ -171,7 +198,7 @@ project:
     - name: Statistical/probabilistic research on the risk of defective occurence during reliability testing and measures to reduce by securing additional sampling
       link: 
       tags:
-      date: 2023 - Now
+      date: 2023 - 2025
       description: |
         Samsung Electronics Co., Ltd.
 
@@ -232,12 +259,24 @@ award:
   description: |
 
   items:
-    - name: Woo-Cheol Kim Award for Excellence in Teaching Assistance
-      awarder: Chair of the Department of Statistics
+    - name: Scholarship for Emerging Scholars in Bayesian Statistics
+      awarder: Namgung & Kang Memorial Foundation
+      date: Sep 2025
+
+  items: 
+    - name: Poster Award
+      awarder: BNP14, UCLA, Los Angeles, USA
+      date: Jun 2025
+      description: |
+        Asymptotic Properties of Lévy Adaptive B-spline Regression
+
+  items:
+    - name: Excellence in Teaching Award
+      awarder: Chair of the Department of Statistics, Seoul National University
       date: Oct 2024
       link: 
       description: |
-        Department of Statistics, Seoul National Universtity
+        Computational Statistics
 
 language:
   show: true
@@ -249,7 +288,7 @@ language:
     - idiom: Korean
       level: Native
     - idiom: English
-      level: Intermediate
+      level: Advanced
 
 reference:
   show: true
@@ -266,6 +305,6 @@ reference:
       email: jylc@gmail.com
       phone: +82-2-880-1321
       description: |
-        My thesis advisor.
+        My advisor.
 
 close: <strong>Sorry, my resume has been hidden.</strong>
