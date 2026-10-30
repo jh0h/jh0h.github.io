@@ -150,43 +150,35 @@ education:
 #       location: Yangju, South Korea
 #       description: |
 
-
 publication:
   show: true
   order: 4
   title: Publications
   description: |
+  items:
+    - title: "Posterior Contraction Rates for Sparse Kolmogorov–Arnold Networks in Anisotropic Besov Spaces."
+      authors: "<strong>Oh, J.</strong>, Lin, L., Lee, J., and Lee, K."
+      conference: "NeurIPS 2026 (to appear)"
+      link: "https://arxiv.org/abs/2605.11652"
 
-  items:
-    - title: Posterior Contraction Rates for Sparse Kolmogorov–Arnold Networks in Anisotropic Besov Spaces.
-      authors: <strong>Oh, J.</strong>, Lin, L., Lee, J., and Lee, K.
-      conference: NeurIPS 2026 (to appear)
-      link: 'https://arxiv.org/abs/2605.11652'
+    - title: "Posterior Contraction of Lévy Adaptive B-spline Regression in Besov Spaces."
+      authors: "<strong>Oh, J.</strong>, Park, S., and Lee, J."
+      conference: "(submitted)"
+      link: "https://arxiv.org/abs/2605.19610"
 
-  items:
-    - title: Posterior Contraction of Lévy Adaptive
-             B-spline Regression in Besov Spaces.
-      authors: <strong>Oh, J.</strong>, Park, S., and Lee, J.
-      conference: (submitted)
-      link: 'https://arxiv.org/abs/2605.19610'
-    
-  items:
-    - title: Multivariate Lévy Adaptive B-Spline Regression
-      authors: Park, S., Lee, J., and <strong>Oh, J.</strong>
-      conference: (submitted)
-      link: 'https://arxiv.org/abs/2108.11863'
-  
-  items:
-    - title: Bayesian Bootstrap based Gaussian Copula Model for Mixed Data with High Missing Rates.
-      authors: Kim, S., <strong>Oh, J.</strong>, Ko, H., Park, J., and Lee, J.
-      conference: Statistics and Computing (to appear)
-      link: 'https://arxiv.org/abs/2507.06785'
-    
-  items:
-    - title: Bayesian Channel Estimation for mmWave Massive MIMO Systems: An MCMC-Based Approach.
-      authors: Lee, G., Kim, S., Oh, M., Ko, B., and <strong>Oh, J.</strong>
-      conference: (submitted)
-      # link: ''
+    - title: "Multivariate Lévy Adaptive B-Spline Regression"
+      authors: "Park, S., Lee, J., and <strong>Oh, J.</strong>"
+      conference: "(submitted)"
+      link: "https://arxiv.org/abs/2108.11863"
+
+    - title: "Bayesian Bootstrap based Gaussian Copula Model for Mixed Data with High Missing Rates."
+      authors: "Kim, S., <strong>Oh, J.</strong>, Ko, H., Park, J., and Lee, J."
+      conference: "Statistics and Computing (to appear)"
+      link: "https://arxiv.org/abs/2507.06785"
+
+    - title: "Bayesian Channel Estimation for mmWave Massive MIMO Systems: An MCMC-Based Approach."
+      authors: "Lee, G., Kim, S., Oh, M., Ko, B., and <strong>Oh, J.</strong>"
+      conference: "(submitted)"
 
 project:
   show: true
@@ -257,24 +249,20 @@ award:
   order: 6
   title: Awards
   description: |
-
   items:
-    - name: Scholarship for Emerging Scholars in Bayesian Statistics
-      awarder: Namgung & Kang Memorial Foundation
-      date: Sep 2025
+    - name: "Scholarship for Emerging Scholars in Bayesian Statistics"
+      awarder: "Namgung & Kang Memorial Foundation"
+      date: "Sep 2025"
 
-  items: 
-    - name: Poster Award
-      awarder: BNP14, UCLA, Los Angeles, USA
-      date: Jun 2025
+    - name: "Poster Award"
+      awarder: "BNP14, UCLA, Los Angeles, USA"
+      date: "Jun 2025"
       description: |
         Asymptotic Properties of Lévy Adaptive B-spline Regression
 
-  items:
-    - name: Excellence in Teaching Award
-      awarder: Chair of the Department of Statistics, Seoul National University
-      date: Oct 2024
-      link: 
+    - name: "Excellence in Teaching Award"
+      awarder: "Chair of the Department of Statistics, Seoul National University"
+      date: "Oct 2024"
       description: |
         Computational Statistics
 
